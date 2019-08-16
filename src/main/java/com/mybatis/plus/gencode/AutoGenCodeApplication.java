@@ -47,7 +47,7 @@ public class AutoGenCodeApplication implements InitializingBean {
                    logger.warning("Mybatis Plus生成Code失败"+ ExceptionUtils.getRootCause(e));
                }
            });
-        logger.info("开始生成MybatisPlus代码...............");
+        logger.info("MybatisPlus代码生成完毕...............");
 
 
     }
